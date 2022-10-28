@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/packages/flamedeck/melos_flamedeck.iml" filepath="$PROJECT_DIR$/packages/flamedeck/melos_flamedeck.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/flamedeck_cartridge/melos_flamedeck_cartridge.iml" filepath="$PROJECT_DIR$/packages/flamedeck_cartridge/melos_flamedeck_cartridge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/melos_flame.iml" filepath="$PROJECT_DIR$/melos_flame.iml" />
+    </modules>
+  </component>
+</project>
