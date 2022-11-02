@@ -60,6 +60,7 @@ class _ConsoleState extends State<Console> {
                           child: DefaultTextStyle(
                             style: const TextStyle(
                               color: Colors.tealAccent,
+                        fontFamily: 'Firealistic',
                             ),
                             child: _focus
                                 ? Padding(
@@ -137,6 +138,7 @@ class _ConsoleState extends State<Console> {
                         color: Colors.white60,
                         fontWeight: FontWeight.bold,
                         fontSize: widget.height * .06,
+                        fontFamily: 'Firealistic',
                       ),
                       child: const Text('FlameDeck'),
                     ),

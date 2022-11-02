@@ -31,3 +31,8 @@ flutter:
   generate: true
   assets:
     - assets/cartridges/dash_viking/
+
+  fonts:
+    - family: Firealistic 
+      fonts:
+        - asset: fonts/firealistic-regular.otf

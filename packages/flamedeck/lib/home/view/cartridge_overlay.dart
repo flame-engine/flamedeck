@@ -101,6 +101,7 @@ class _CartridgeOverlayState extends State<CartridgeOverlay> {
                         color: Colors.indigoAccent,
                         fontSize: 26,
                         fontWeight: FontWeight.bold,
+                        fontFamily: 'Firealistic',
                       ),
                       child: Text('Load it up!'),
                     ),

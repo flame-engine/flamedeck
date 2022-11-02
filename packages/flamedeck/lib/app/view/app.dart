@@ -10,12 +10,15 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final themeData = ThemeData();
+
     return BlocProvider<AppCubit>(
       create: (_) => AppCubit(),
       child: MaterialApp(
         theme: ThemeData(
           appBarTheme: const AppBarTheme(color: Color(0xFFeb4634)),
           primaryColor: const Color(0xFFeb4634),
+          textTheme: themeData.textTheme.apply(fontFamily: 'Firealistic'),
           colorScheme: ColorScheme.fromSwatch(
             accentColor: const Color(0xFFeb4634),
           ),
