@@ -60,7 +60,7 @@ class _ConsoleState extends State<Console> {
                           child: DefaultTextStyle(
                             style: const TextStyle(
                               color: Colors.tealAccent,
-                        fontFamily: 'Firealistic',
+                              fontFamily: 'Firealistic',
                             ),
                             child: _focus
                                 ? Padding(

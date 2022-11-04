@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 class GameView extends StatelessWidget {
@@ -7,7 +6,9 @@ class GameView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: Center(child: Text('GAMEEEEEEE!!!'),),
+      body: Center(
+        child: Text('GAMEEEEEEE!!!'),
+      ),
     );
   }
 }

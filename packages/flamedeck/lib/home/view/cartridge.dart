@@ -38,7 +38,7 @@ class Cartridge extends StatelessWidget {
                 child: Image.asset(cartridge.gameCover),
               ),
             ),
-              Icon(Icons.arrow_drop_down_sharp, size: height * .2),
+            Icon(Icons.arrow_drop_down_sharp, size: height * .2),
             Container(
               height: 8,
               width: width * .85,

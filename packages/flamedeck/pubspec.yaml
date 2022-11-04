@@ -30,6 +30,7 @@ flutter:
   uses-material-design: true
   generate: true
   assets:
+    - assets/system/
     - assets/cartridges/dash_viking/
 
   fonts:

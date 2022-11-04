@@ -4,8 +4,7 @@ import 'package:flamedeck_cartridge/flamedeck_cartridge.dart';
 final dashVikingsCartridge = FlamedeckCartridge(
   cartridgeBuilder: (_) => const DashingVikings(),
   title: 'Dashing Vikings',
-  description: 
-'''
+  description: '''
 Yet another clone of the classic Chrome's Dino Run game.
 But this time with a twist, instead of Dino, you play with Dash, and instead of
 just avoiding trees, you can gather gear and destroy them!

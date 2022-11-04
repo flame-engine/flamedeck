@@ -35,6 +35,7 @@ class Shell extends StatelessWidget {
                           color: Colors.white,
                           fontSize: 28,
                           fontWeight: FontWeight.bold,
+                          fontFamily: 'Firealistic',
                         ),
                         child: Text('FlameDeck'),
                       ),

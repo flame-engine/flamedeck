@@ -1,15 +1,14 @@
 part of 'app_cubit.dart';
 
 class AppState extends Equatable {
-
   const AppState({
     required this.shellColor,
   });
 
-  const AppState.initial() : this(
-    shellColor: const Color(0xffd6a63e),
-  );
-
+  const AppState.initial()
+      : this(
+          shellColor: const Color(0xffd6a63e),
+        );
 
   final Color shellColor;
 
